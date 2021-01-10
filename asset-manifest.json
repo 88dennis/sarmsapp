@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sarmsapp/static/css/main.0fe9eb74.chunk.css",
-    "main.js": "/sarmsapp/static/js/main.706c85b0.chunk.js",
-    "main.js.map": "/sarmsapp/static/js/main.706c85b0.chunk.js.map",
+    "main.js": "/sarmsapp/static/js/main.e4330695.chunk.js",
+    "main.js.map": "/sarmsapp/static/js/main.e4330695.chunk.js.map",
     "runtime-main.js": "/sarmsapp/static/js/runtime-main.71167ecf.js",
     "runtime-main.js.map": "/sarmsapp/static/js/runtime-main.71167ecf.js.map",
     "static/js/2.e6729e1b.chunk.js": "/sarmsapp/static/js/2.e6729e1b.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.71167ecf.js",
     "static/js/2.e6729e1b.chunk.js",
     "static/css/main.0fe9eb74.chunk.css",
-    "static/js/main.706c85b0.chunk.js"
+    "static/js/main.e4330695.chunk.js"
   ]
 }
