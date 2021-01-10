@@ -1,7 +1,31 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import {SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements';
+import { useHistory } from "react-router-dom";
 
 const Sidebar = ({isOpen, toggle}) => {
+    const [user, setUser] = useState(false);
+
+    const history = useHistory();
+
+    useEffect(() => {
+        let lastNameVar = localStorage.getItem("sarmscode");
+        if (!lastNameVar) {
+          // alert('no stored')
+          setUser(false);
+        } else {
+          setUser(true);
+        }
+      }, []);
+    
+  const handleSignOut = () => {
+    setUser(false);
+    let path = `/signin`;
+    localStorage.removeItem("sarmscode");
+    // window.location.reload();
+    history.replace(path);
+    console.log(history);
+    toggle();
+  };
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <Icon onClick={toggle}>
@@ -22,17 +46,25 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="preview" onClick={toggle}>
                         Preview
                     </SidebarLink>
-                    <SidebarLink to="signup" onClick={toggle}>
+                    {/* <SidebarLink to="signup" onClick={handleSignOut}>
                         Signup
-                    </SidebarLink>
+                    </SidebarLink> */}
           
                 </SidebarMenu>
 
-                <SideBtnWrap>
+                {!user && <SideBtnWrap>
                     <SidebarRoute to="/signin" onClick={toggle}>
                         Sign In
                     </SidebarRoute>
-                </SideBtnWrap>
+                </SideBtnWrap>}
+
+                {user && <SideBtnWrap>
+                    <SidebarRoute to="/signin" onClick={handleSignOut}>
+                        Sign Out
+                    </SidebarRoute>
+                </SideBtnWrap>}
+
+
             </SidebarWrapper>
         </SidebarContainer>
     )

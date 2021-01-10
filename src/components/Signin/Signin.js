@@ -93,7 +93,7 @@ const Signin = () => {
           </Icon>
           <FormContent>
             <Form action="#">
-              <FormH1>Sign in to your account</FormH1>
+              <FormH1>Sign in to your SARMS account</FormH1>
 
               <FormLabel htmlFor="username">Username</FormLabel>
               <FormInput
