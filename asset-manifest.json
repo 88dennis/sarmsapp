@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/sarmsapp/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/sarmsapp/static/js/main.6f1bc27d.chunk.js",
-    "main.js.map": "/sarmsapp/static/js/main.6f1bc27d.chunk.js.map",
-    "runtime-main.js": "/sarmsapp/static/js/runtime-main.e928e482.js",
-    "runtime-main.js.map": "/sarmsapp/static/js/runtime-main.e928e482.js.map",
-    "static/js/2.0f5d5eeb.chunk.js": "/sarmsapp/static/js/2.0f5d5eeb.chunk.js",
-    "static/js/2.0f5d5eeb.chunk.js.map": "/sarmsapp/static/js/2.0f5d5eeb.chunk.js.map",
-    "static/js/3.5f151619.chunk.js": "/sarmsapp/static/js/3.5f151619.chunk.js",
-    "static/js/3.5f151619.chunk.js.map": "/sarmsapp/static/js/3.5f151619.chunk.js.map",
+    "main.css": "/sarmsapp/static/css/main.0fe9eb74.chunk.css",
+    "main.js": "/sarmsapp/static/js/main.921ba7b7.chunk.js",
+    "main.js.map": "/sarmsapp/static/js/main.921ba7b7.chunk.js.map",
+    "runtime-main.js": "/sarmsapp/static/js/runtime-main.71167ecf.js",
+    "runtime-main.js.map": "/sarmsapp/static/js/runtime-main.71167ecf.js.map",
+    "static/js/2.53077e19.chunk.js": "/sarmsapp/static/js/2.53077e19.chunk.js",
+    "static/js/2.53077e19.chunk.js.map": "/sarmsapp/static/js/2.53077e19.chunk.js.map",
+    "static/js/3.5380e785.chunk.js": "/sarmsapp/static/js/3.5380e785.chunk.js",
+    "static/js/3.5380e785.chunk.js.map": "/sarmsapp/static/js/3.5380e785.chunk.js.map",
     "index.html": "/sarmsapp/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/sarmsapp/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.0f5d5eeb.chunk.js.LICENSE.txt": "/sarmsapp/static/js/2.0f5d5eeb.chunk.js.LICENSE.txt"
+    "static/css/main.0fe9eb74.chunk.css.map": "/sarmsapp/static/css/main.0fe9eb74.chunk.css.map",
+    "static/js/2.53077e19.chunk.js.LICENSE.txt": "/sarmsapp/static/js/2.53077e19.chunk.js.LICENSE.txt",
+    "static/media/undraw_Savings_re_eq4w.ee2c4fd5.svg": "/sarmsapp/static/media/undraw_Savings_re_eq4w.ee2c4fd5.svg",
+    "static/media/undraw_add_tasks_mxew.8fa5dae7.svg": "/sarmsapp/static/media/undraw_add_tasks_mxew.8fa5dae7.svg",
+    "static/media/undraw_off_road_9oae.f0d503cb.svg": "/sarmsapp/static/media/undraw_off_road_9oae.f0d503cb.svg",
+    "static/media/video.a9d738ab.mp4": "/sarmsapp/static/media/video.a9d738ab.mp4",
+    "static/media/video1.6541211d.mp4": "/sarmsapp/static/media/video1.6541211d.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.e928e482.js",
-    "static/js/2.0f5d5eeb.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.6f1bc27d.chunk.js"
+    "static/js/runtime-main.71167ecf.js",
+    "static/js/2.53077e19.chunk.js",
+    "static/css/main.0fe9eb74.chunk.css",
+    "static/js/main.921ba7b7.chunk.js"
   ]
 }
