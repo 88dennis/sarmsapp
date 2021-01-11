@@ -6,16 +6,13 @@ export const ServicesContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 800px;
   background-color: #010606;
-padding-bottom:20px;
-  @media screen and (max-width: 768px) {
-  min-height: 1100px;
 
+  @media screen and (max-width: 768px) {
+    height: 1100px;
   }
   @media screen and (max-width: 480px) {
-  min-height: 1300px;
-
+    height: 1300px;
   }
 `;
 

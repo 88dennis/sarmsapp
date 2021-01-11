@@ -55,7 +55,7 @@ if (!lastNameVar) {
       {user &&  <InfoSection {...homeObjThree} />}
 
       {user && <Services />}
-
+{/* <br /> */}
 
       <Footer />
     </div>
