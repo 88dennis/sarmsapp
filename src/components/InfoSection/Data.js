@@ -59,8 +59,8 @@ export const homeObjThree = {
     imgStart: false,
     img: img3,
     alt: 'Papers',
-    dark: true,
-    primary: true,
+    dark: false,
+    primary: false,
     darkText: true,
     navigateTo: "services",
     vid: null
