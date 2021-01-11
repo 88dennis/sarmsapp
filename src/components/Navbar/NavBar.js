@@ -131,7 +131,7 @@ const NavBar = ({ toggle, isOpen }) => {
                   // onSetActive={handleSetActive}
                   // onSetInactive={handleSetInactive}
                 >
-                  Services
+                  Family Rooms
                 </NavLinks>
               </NavItem>
               <NavItem>

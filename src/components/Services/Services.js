@@ -9,24 +9,24 @@ const Services = () => {
     return (
         <ServicesContainer id="services"> 
             <ServicesH1>
-                Our Services
+                Family Rooms
             </ServicesH1>
 
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>
-                    <ServicesH2>Track Loans</ServicesH2>
-                    <ServicesP>We help track your loans and cashflow</ServicesP>
+                    <ServicesH2>Resty Family</ServicesH2>
+                    <ServicesP>Restituto's Family Room and photos</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
-                    <ServicesH2>Chat Rooms</ServicesH2>
-                    <ServicesP>Chatroom and messaging app to send reminders to your friends</ServicesP>
+                    <ServicesH2>Henry Room</ServicesH2>
+                    <ServicesP>Henry and Kath's Space and photos</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
-                    <ServicesH2>Premium Benefits</ServicesH2>
-                    <ServicesP>Platform to track loans within an organization</ServicesP>
+                    <ServicesH2>Dan Crib</ServicesH2>
+                    <ServicesP>Dan and Emmie's family photos and garden</ServicesP>
                 </ServicesCard>
 
             </ServicesWrapper>

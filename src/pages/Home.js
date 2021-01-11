@@ -46,7 +46,7 @@ if (!lastNameVar) {
 
       {user && <br /> }
 
-      {user && <InfoSection {...homeObjFour} />}
+      {/* {user && <InfoSection {...homeObjFour} />} */}
 
       {user && <InfoSection {...homeObjOne} />}
 

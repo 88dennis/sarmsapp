@@ -41,7 +41,7 @@ const Sidebar = ({isOpen, toggle}) => {
                         Discover
                     </SidebarLink>
                     <SidebarLink to="services" onClick={toggle}>
-                        Services
+                        Family Rooms
                     </SidebarLink>
                     <SidebarLink to="preview" onClick={toggle}>
                         Preview
