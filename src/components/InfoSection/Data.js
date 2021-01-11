@@ -8,9 +8,9 @@ import Video from '../../videos/video.mp4';
 
 export const homeObjOne = {
     id: 'about',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'SARMS FAMILY',
     headline: 'Get to know our family',
     description: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.',
@@ -18,9 +18,9 @@ export const homeObjOne = {
     imgStart: false,
     img: img,
     alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false,
+    dark: false,
+    primary: false,
+    darkText: true,
     navigateTo: "preview",
     vid: null
 
@@ -28,9 +28,9 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
     id: 'discover',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     topLine: 'Unlimited Access',
     headline: 'Login to our app anytime',
     description: 'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer',
@@ -38,9 +38,9 @@ export const homeObjTwo = {
     imgStart: true,
     img: img2,
     alt: 'Piggybank',
-    dark: false,
-    primary: false,
-    darkText: true,
+    dark: true,
+    primary: true,
+    darkText: false,
     navigateTo: "services",
     vid: null
 
